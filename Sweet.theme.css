@@ -1,6 +1,6 @@
 /**
  * @name Sweet
- * @version 0.1.1
+ * @version 0.2.1
  * @description Sweet Theme
  * @author PieroNarciso
  * 
@@ -34,9 +34,9 @@
   --slider-background: var(--menu-border-color);
   --popout-color: var(--bar-color);
   --popout-radius: 7px;
-  --menu-hover-color: #424242;
-  --menu-hover-color-alt: #252525;
-  --menu-select-color: #4d4d4d;
+  --menu-hover-color: var(--side-color);
+  --menu-hover-color-alt: var(--side-color);
+  --menu-select-color: var(--side-bar-color);
   --menu-border-color: #424242;
   --menu-text-color: #b2b2b2;
   --input-bg: #e0e0e0;
@@ -271,6 +271,9 @@ a,
   background-color: transparent; }
 
 /* SERVERS/GUILD LIST -> ADD SERVER */
+.container-1CE3eW {
+  padding: 15px 0px
+}
 .createJoinContainer-2Av064 {
   position: relative;
   margin: 20px 0 0 0; }
