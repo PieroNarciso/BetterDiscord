@@ -1,11 +1,11 @@
 /**
  * @name Sweet
- * @version 0.1.0
+ * @version 0.1.1
  * @description Sweet Theme
  * @author PieroNarciso
  * 
  * @website http://github.com/PieroNarciso
- * @source https://github.com/PieroNarciso/BetterDiscord/Sweet.css
+ * @source https://github.com/PieroNarciso/BetterDiscord/blob/main/Sweet.theme.css
  */
 
 :root {
@@ -965,7 +965,7 @@ a,
  *
  */
 .searchResultsWrap-3-pOjs {
-  padding: 0 0 72px 0;
+  padding: 0 0 0px 0;
   background: var(--side-color) !important; }
 
 .searchHeader-2XoQg7 {
@@ -1190,7 +1190,7 @@ a,
 /* FRIENDS -> FRIENDS LIST */
 .tabBody-3YRQ8W {
   position: relative;
-  padding: 0 0 72px 0; }
+  padding: 0 0 0px 0; }
 
 .container-1D34oG {
   background-color: var(--chat-color) !important; }
@@ -2707,6 +2707,7 @@ a,
   border: var(--button-border);
   font-size: 12px;
   font-weight: 600;
+  margin-left: 5px;
   color: var(--button-text-color);
   text-transform: uppercase;
   transition: border 0ms ease; }
