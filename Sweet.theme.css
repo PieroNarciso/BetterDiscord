@@ -11,9 +11,9 @@
 :root {
   --accent-color: #9b59b6;
   --accent-hover: #8e44ad;
-  --accent-rgb: 24,27,40;
+  --accent-rgb: 0,0,0;
   --accent-text-color: #fff;
-  --alt-accent: #5680d4;
+  --alt-accent: #ed1515;
   --alert-color: #f04747;
   --alert-hover: #ff4c4c;
   --chat-color: #181B28;
@@ -748,7 +748,7 @@ a,
 /* MAIN CHAT/MESSAGES AREA -> MESSAGES -> MENTIONS */
 .wrapper-3WhCwL {
   background-color: rgba(var(--accent-rgb), 0.3) !important;
-  color: #fff !important;
+  color: var(--accent-hover) !important;
   border-radius: 3px; }
 
 .mentioned-xhSam7,
@@ -4066,7 +4066,7 @@ div[role="radiogroup"] {
 
 ::-webkit-scrollbar {
   position: absolute;
-  width: 16px !important;
+  width: 8px !important;
   background: transparent; }
   ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0) !important;
